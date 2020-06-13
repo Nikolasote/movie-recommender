@@ -1,10 +1,15 @@
 body {
- background: rgb(12,0,62);
-background: linear-gradient(90deg, rgba(12,0,62,1) 0%, rgba(32,22,148,1) 100%);
+  background: rgb(12, 0, 62);
+  background: linear-gradient(
+    90deg,
+    rgba(12, 0, 62, 1) 0%,
+    rgba(32, 22, 148, 1) 100%
+  );
 }
 
 .container {
   margin: auto;
+  margin-top: 10vh;
 }
 
 #inner-container {
@@ -15,25 +20,24 @@ background: linear-gradient(90deg, rgba(12,0,62,1) 0%, rgba(32,22,148,1) 100%);
   margin-top: 10px;
   border-radius: 10px;
   background-color: rgba(110, 126, 129, 0.205);
-  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2)
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
 }
 
 .movie-list-container {
   margin-top: 10px;
   border-radius: 20px;
-
 }
 
-.poster { 
-   max-width: 100%;  
-   height: auto
+.poster {
+  max-width: 100%;
+  height: auto;
 }
 
 .poster-container {
   padding: 10px;
 }
 
-.logos { 
+.logos {
   width: 100%;
   max-width: 90px;
   margin: 0 auto;
@@ -43,7 +47,7 @@ background: linear-gradient(90deg, rgba(12,0,62,1) 0%, rgba(32,22,148,1) 100%);
 }
 
 #heading {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-size: 2rem;
   margin-bottom: 10pxs;
@@ -52,7 +56,7 @@ background: linear-gradient(90deg, rgba(12,0,62,1) 0%, rgba(32,22,148,1) 100%);
 }
 
 #movie-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-size: 1.6rem;
   color: #00b8db;
@@ -64,14 +68,14 @@ background: linear-gradient(90deg, rgba(12,0,62,1) 0%, rgba(32,22,148,1) 100%);
 }
 
 #meta {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.3rem;
   color: #00b8db;
   text-transform: uppercase;
 }
 
 #meta a {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.3rem;
   color: #00b8db;
   text-transform: uppercase;
@@ -86,17 +90,17 @@ background: linear-gradient(90deg, rgba(12,0,62,1) 0%, rgba(32,22,148,1) 100%);
   width: 100%;
 }
 
-
-input, select, textarea{
-    color: #ffffff;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-;
+input,
+select,
+textarea {
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
 }
 
 ::placeholder {
-  color:rgb(211,211,211,0.3);
-  font-family: 'Oswald', sans-serif;
+  color: rgb(211, 211, 211, 0.3);
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
 }
 
@@ -107,40 +111,40 @@ input, select, textarea{
 }
 
 .count-btn {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.4rem;
   color: white;
   background: transparent;
-  border-style: none; 
+  border-style: none;
   margin: 10px;
 }
 
-.count-btn:focus, .count-btn:hover {
+.count-btn:focus,
+.count-btn:hover {
   transform: scale(1.2);
   outline: none;
 }
 
-
 #count-output {
-  color: rgba(32,22,148,1); 
+  color: rgba(32, 22, 148, 1);
 }
 
 .submit-btn {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-size: 1.4rem;
   color: white;
   background: #00b8db;
   border-style: none;
   border-radius: 10px;
-  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2)
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
 }
 
-.submit-btn:focus, .submit-btn:hover {
+.submit-btn:focus,
+.submit-btn:hover {
   transform: scale(1.01);
   outline: none;
 }
-
 
 .footer-container {
   font-size: 1rem;
@@ -152,12 +156,12 @@ input, select, textarea{
 }
 
 .checkbox-label input {
-  opacity: 0; 
+  opacity: 0;
   position: absolute;
 }
 
 .checkbox-label {
-  margin-top:0.3rem;
+  margin-top: 0.3rem;
 }
 
 .checkbox-text {
